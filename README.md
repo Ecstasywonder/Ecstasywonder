@@ -46,6 +46,21 @@ Repositories:
 
 ---
 
+## Private systems — public engineering case studies
+
+Several larger systems are developed in private repositories. The following **sanitized STAR case studies** explain the engineering challenge, implementation approach, verified or documented outcomes, trade-offs and limitations without publishing source code, private data or infrastructure secrets.
+
+| Case study | Engineering evidence |
+| --- | --- |
+| [FlowTrack — Operations SaaS](case-studies/flowtrack.md) | Multi-module SaaS architecture, authenticated data, analytics and deployment automation |
+| [Àlà House — Distributed Hospitality Platform](case-studies/ala-house.md) | Service decomposition, transactional correctness, recovery and operational verification |
+| [Biodata DevOps — Container-to-EC2 Delivery](case-studies/biodata-devops.md) | Docker Compose, PostgreSQL, CI smoke tests and controlled release/rollback |
+| [Phishing Research Infrastructure](case-studies/research-infrastructure.md) | Provenance, leakage-aware evaluation, reproducible automation and gated analytics |
+
+[Browse all four case studies](case-studies/README.md).
+
+---
+
 ## Systems I am building toward
 
 I am especially interested in roles where software delivery and infrastructure meet:
